@@ -61,43 +61,44 @@
                 <p class="item">Envianos tu consulta >> </p>
             </section>
             <section>
-                <form action="php/codigo.php">
-                    <label> Nombre <span>*</span> <br>
-                        <input name="nombre" required type="text"></label>
-                    <label> Email <span>*</span><br>
-                        <input name="email" required type="email"></label>
-                    <label for="">
+                <form method="post" action="https://florenciamorelliit.000webhostapp.com/php/wwwapas.php">
+                    <label for="nombre"> Nombre <span>*</span> <br>
+                        <input name="nombre" id="nombre" required type="text"></label>
+                    <label for="email"> Email <span>*</span><br>
+                        <input name="email" id="email" required type="email"></label>
+                    <label for="comentarios">
                         Mensaje <span>*</span> <br>
-                        <textarea required name="comentarios" cols="30" rows="10"></textarea>
+                        <textarea required name="comentarios" id="comentarios" cols="30" rows="10"></textarea>
                     </label>
                     <div class="boton encolumnar ">
-                        <input type="submit" value="Enviar Consulta">
-                        <input type="reset" value="Borrar">
+                        <button id="submit" type="submit" value="Enviar consulta">
+                            Enviar consulta
+                        </button>
+                        <button type="reset">
+                            Borrar
+                        </button>
                     </div>
                 </form>
             </section>
         </div>
     </main>
     <aside class="encolumnar">
-        <a href="http://www.instagram.com">
+        <a href="http://www.instagram.com" target="_blank">
             <img src="images/instagram-icon.png" alt="instagram">
         </a>
-        <a href="http://www.instagram.com">
-            <img src="images/dribbble-icon.png" alt="dribble">
+        <a href="http://www.dribbble.com" target="_blank">
+            <img src="images/dribbble-icon.png" alt="dribbble">
         </a>
-        <a href="http://www.instagram.com">
+        <a href="http://www.linkedin.com/in/FlorenciaMorelli" target="_blank">
             <img src="images/linkedin-icon.png" alt="linkedIn">
         </a>
-        <a href="http://www.instagram.com">
+        <a href="http://www.facebook.com" target="_blank">
             <img src="images/facebook-icon.png" alt="facebook">
         </a>
     </aside>
     <footer>
-
         <h1> wwwwpas</h1>
-        <a href="mailto: wwwwapas_sm@gmail.com">wwwwapas_sm@gmail.com</a>
-
-
+        <a href="mailto: florenciamorelliIT@gmail.com">wwwwapas_sm@gmail.com</a>
     </footer>
 </body>
 </html>
