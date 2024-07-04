@@ -16,6 +16,8 @@ The objective of this project was to apply the skills and knowledge acquired dur
 - **Responsive Design:** Ensures the website is accessible and visually appealing across various devices and screen sizes.
 - **Semantic HTML:** Utilizes modern HTML5 elements to improve the structure and accessibility of the content.
 - **CSS3 Styling:** Includes advanced CSS techniques to create an engaging and user-friendly interface.
+- **Interactive Elements:** Incorporates interactive elements such as forms, buttons, and animations to enhance the user experience.
+- **PHP Form Usage:** The website includes a PHP form that allows users to submit their information and receive a personalized response.
 
 ## Course and Certification
 
@@ -29,13 +31,14 @@ I have successfully completed the course and earned a certificate. You can view 
 ## Repository Structure
 
 - `index.html`: The main HTML file for the project.
-- `styles/`: Directory containing CSS files.
+- `css/`: Directory containing CSS files.
+- `certificates/`: Directory containing my certificate in PDF and PNG format.
 - `images/`: Directory containing images used in the project.
-- `scripts/`: Directory containing any JavaScript files (if applicable).
+- `php/`: Directory containing php files.
 
 ## Usage
 
-To view the project, simply clone this repository and open the `index.html` file in your web browser.
+To view the project on your local, simply clone this repository and open the `index.html` file in your web browser.
 
 ```bash
 git clone https://github.com/FlorenciaMorelli/WWWapas.git
@@ -47,5 +50,5 @@ open index.html
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 ## Acknowledgments
-Educación IT for providing the course and resources necessary for this project.
+[Educación IT](https://www.educacionit.com/) for providing the course and resources necessary for this project.
 Instructors and peers from the course for their support and guidance.
